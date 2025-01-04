@@ -63,7 +63,7 @@ CREATE TABLE contas_pagar (
     valor DECIMAL(10, 2),
     status VARCHAR(20) DEFAULT 'Pendente',
     FOREIGN KEY (id_usuario) REFERENCES usuarios(id_usuario)
-);
+);```
 
 
 ## Arquitetura do Sistema
